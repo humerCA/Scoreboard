@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cursed Timer ULiL'), url('https://fonts.cdnfonts.com/s/40642/CursedTimerUlil-Aznm.woff') format('woff');
+}
+
+body {
+    margin: auto;
+    background: #1B244A;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    margin-top: 80px;
+    /* width: 575px;
+    height: 385px; */
+    max-width: 100%;
+
+}
+
+h3 {
+    margin: 20px 10px;
+    /* position: absolute; */
+    width: 149px;
+    height: 36px;
+    /* left: 85px;
+    top: 68px; */
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+
+    text-align: center;
+    color: #EEEEEE;
+}
+
+
+h2{
+display: flex;
+align-content: center;
+align-items: center;
+justify-content: center;
+margin: 20px 10px;
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 124px;
+/* or 141% */
+
+text-align: center;
+
+color: #F94F6D;
+width: 155px;
+height: 120px;
+/* left: 82px;
+top: 125px; */
+
+background: #080001;
+border-radius: 5px;
+    
+}
+.scores {
+    /* position: absolute; */
+    /* width: 117px;
+    height: 120px; */
+    /* left: 100px;
+    top: 125px; */
+
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    /* or 141% */
+
+    text-align: center;
+    color: #F94F6D;  
+}
+
+
+
+span > button{
+    margin: 5px 5px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    width: 45px;
+    height: 45px;
+    border: none;
+    outline: none;
+    /* padding: 5px 10px; */
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    background: #1B244A;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+}
+
+.restart {
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 20px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    background: #1B244A;
+    font-family: 'Cursed Timer ULiL';
+}
